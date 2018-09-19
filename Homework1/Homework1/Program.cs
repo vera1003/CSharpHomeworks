@@ -12,8 +12,7 @@ namespace Homework1
         {
             string s = "";
             string t = "";
-            int a = 0;
-            int b = 0;
+            int a, b;
             Console.Write("Please input one number:");
             s = Console.ReadLine();
             Console.Write("Please input another number:");
