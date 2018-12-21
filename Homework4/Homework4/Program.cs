@@ -14,13 +14,13 @@ namespace Homework4
         public delegate void ClockEventHandler(object sender, ClockEventArgs e);
         public class Clock
         {
-            public event ClockEventHandler alarmClock;
+            public event ClockEventHandler AlarmClock;
             public void DoClock()
             {
-                if (alarmClock != null)
+                if (AlarmClock != null)
                 {
                     ClockEventArgs args = new ClockEventArgs();
-                    alarmClock(this, args);
+                    AlarmClock(this, args);
                 }
             }
         }
@@ -60,7 +60,7 @@ namespace Homework4
                 }
                 Console.WriteLine("It's " + t + "now !");
 
-                clock.alarmClock += Ring;
+                clock.AlarmClock += Ring;
                 clock.DoClock();
             }
             static void Ring(object sender, ClockEventArgs e)

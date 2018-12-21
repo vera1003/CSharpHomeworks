@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Homework4\Clock.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order", "Order\Order.csproj", "{BBCA3F01-040F-461F-B2CC-71C674BBCE4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test、", "Test、\Test、.csproj", "{01536CCD-7B45-48DA-B7AA-CCD9135552D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BBCA3F01-040F-461F-B2CC-71C674BBCE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCA3F01-040F-461F-B2CC-71C674BBCE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCA3F01-040F-461F-B2CC-71C674BBCE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01536CCD-7B45-48DA-B7AA-CCD9135552D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01536CCD-7B45-48DA-B7AA-CCD9135552D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01536CCD-7B45-48DA-B7AA-CCD9135552D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01536CCD-7B45-48DA-B7AA-CCD9135552D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
